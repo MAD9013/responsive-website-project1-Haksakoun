@@ -137,7 +137,7 @@ footer {
 *************************************************/
 @media (max-width: 599px) {
     html{
-        min-width: 475px;
+        min-width: 500px;
     }
     
     header {
