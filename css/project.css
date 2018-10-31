@@ -136,6 +136,10 @@ footer {
             MEDIA QUERIES for layout
 *************************************************/
 @media (max-width: 599px) {
+    html{
+        min-width: 445px;
+    }
+    
     header {
 
         background-image: url("/responsive-website-project1-Haksakoun/img/header1s.jpg")
