@@ -43,6 +43,7 @@ img {
 header {
     padding: 1rem 2rem;
     color: rgb(255,255,255);
+    background-size: cover;
 }
 
 header > h1 {}
