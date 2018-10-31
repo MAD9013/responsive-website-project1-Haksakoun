@@ -96,16 +96,24 @@ section p img {
 *************************************************/
 footer {
     padding: 1rem 2rem;
-}
-
-.foot nav {
-display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: space-around;
+    display: grid;
+    grid-template-areas: "A B";
     background-color: rgb(115, 0, 153);
 }
 
+.foot nav {
+    display: grid;
+    grid-template-areas: "A B";
+    background-color: rgb(115, 0, 153);
+}
+
+.docs{
+    grid-area: A;
+}
+
+.channels {
+    grid-area: B;
+}
 .foot section {}
 
 .foot dl {}
@@ -129,20 +137,20 @@ display: flex;
 @media (max-width: 599px) {
     header {
 
-        background-image: url("/img/header1s.jpg")
+        background-image: url("/responsive-website-project1-Haksakoun/img/header1s.jpg")
     }
 }
 
 @media (min-width: 600px) and (max-width:999px) {
 
     header {
-        background-image: url("/img/header1m.jpg")
+        background-image: url("/responsive-website-project1-Haksakoun/img/header1m.jpg")
     }
 }
 
 @media (min-width: 1000px) {
     header {
 
-        background-image: url("/img/header1l.jpg")
+        background-image: url("/responsive-website-project1-Haksakoun/img/header1l.jpg")
     }
 }
